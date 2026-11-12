@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <h1>🎓 Student Management System</h1>
+        <div class="form-container">
+            <h2 id="formTitle">Add Student</h2>
+            <form id="studentform">
+            <div class="form-container">
+                <h2>student information</h2>
+                <div class="form-group">
+                    <label for="studentId">Student ID</label>
+                    <input type="text" id="studentId" placeholder="Enter Student ID">
+                    <small id="idError"></small>
+                </div>
+              <div class="studentname">
+                <div class="form-group">
+                    <label for="studentName">Student Name</label>
+                    <input type="text" id="studentName" placeholder="Enter Full Name">
+                    <small id="nameError"></small>
+                
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email">
+                    <small id="emailError"></small>
+                </div>
+                 </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder="Enter Phone Number">
+                    <small id="phoneError"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Course</label>
+                    <select id="course">
+                        <option value="">Select Course</option>
+                        <option value="Python">B.TECH</option>
+                        <option value="Data Analytics">M.TECH</option>
+                        <option value="Web Development">BSC</option>
+                        <option value="Java">MSC</option>
+                    </select>
+                    <small id="courseError"></small>
+                    </div>  
+            </div>
+                    <div class="button-group">
+                    <button type="submit" id="submitBtn">Add Student</button>
+                    <button type="button" id="cancelBtn" class="cancel-btn">reset</button>
+                </div>
+            </form>
+        </div>
+        <div class="student-container">
+            <div class="table-header">
+                <h2>Student List</h2>
+                <button id="deleteAllBtn" class="delete-all-btn">Delete All</button>
+            </div>
+        </div>
+         <div class="student-container">
+            <div class="table-header">
+                <h2>Student List</h2>
+                <input type="text" id="searchInput" placeholder="Search by ID, Name, Email...">
+            </div>
+            <div class="student-count">Total Students: <span id="studentCount">0</span></div>
+            <div class="table-wrapper">
+                <table>
+                     </div>
+            <p id="noStudents" class="no-students">No students found.</p>
+            <button id="clearAllBtn" class="clear-btn">Clear All Students</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
