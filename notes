@@ -1,0 +1,39 @@
+3 classification of sql commands
+
+ 1. DDL  (data definition language )
+
+    - CREATE : TABLE CREATION
+    - ALTER  : TABLE MODIFICATION 
+    - DROP   : REMOVE A TABLE 
+    - TRUNCATE : EMPTY A TABLE 
+    - RENAME  : RENAME 
+
+2. DML  (DATA MANIPULATION LANGUAGE )
+
+     - INSERT : ADD DATA
+     - UPDATE  : TO MODIFY DATA
+     - DELETE  : TO REMOVE DATA
+
+3. DQL  (DATA QUERY LANGUAGE )
+  
+   - SELECT  : RETRIVE DATA 
+
+
+DATA TYPES IN SQL 
+
+   - INTEGER
+   - REAL
+   - TEXT
+   - NULL
+   - BLOB
+
+
+CONSTRAINTS
+
+  - PRIMARY KEY 
+  - FOREIGN KEY
+  - UNIQUE
+  - NOT NULL
+  - AUTOINCREMENT
+  - DEFAULT
+  - CHECK
