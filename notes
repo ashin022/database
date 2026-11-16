@@ -37,3 +37,11 @@ CONSTRAINTS
   - AUTOINCREMENT
   - DEFAULT
   - CHECK
+
+
+update table name
+
+set field = value
+where condition 
+
+
